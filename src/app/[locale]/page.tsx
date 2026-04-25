@@ -3,7 +3,6 @@ import { SiteHeader } from "@/components/navigation/SiteHeader";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { PortfolioSection } from "@/components/sections/PortfolioSection";
 import { PricingSection } from "@/components/sections/PricingSection";
-import { ProcessSection } from "@/components/sections/ProcessSection";
 import { getMessages } from "@/lib/i18n";
 import { isLocale, locales } from "@/lib/i18n/config";
 
@@ -31,7 +30,6 @@ export default async function LocalePage({ params }: PageProps) {
         <AboutSection messages={messages} />
         <PricingSection messages={messages} />
         <PortfolioSection messages={messages} />
-        <ProcessSection messages={messages} />
       </main>
     </div>
   );

@@ -36,7 +36,7 @@ export function PortfolioSection({ messages }: PortfolioSectionProps) {
   }, [canLoadMore]);
 
   return (
-    <section id="works" className="section-shell scroll-mt-20 py-10 md:py-14">
+    <section id="works" className="section-shell scroll-mt-20 py-6 md:py-14">
       <Reveal>
         <h2 className="text-3xl font-semibold text-zinc-950">{messages.portfolio.title}</h2>
         <p className="mt-2 text-zinc-600">{messages.portfolio.description}</p>
@@ -45,7 +45,7 @@ export function PortfolioSection({ messages }: PortfolioSectionProps) {
       <div className="mt-6 space-y-8">
         {renderedSets.map((set, setIndex) => (
           <Reveal key={setIndex} delayMs={setIndex * 50}>
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:gap-4">
+            <div className="grid grid-cols-2 gap-3 md:gap-4">
               {set.map((photo, imageIdx) => (
                 <div key={photo} className="overflow-hidden rounded-2xl bg-zinc-200">
                   <Image

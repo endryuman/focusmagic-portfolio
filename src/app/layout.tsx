@@ -14,7 +14,7 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "focusmagic.q - Photographer",
+  title: "focusmagic - Photographer",
   description: "Lifestyle photographer portfolio and pricing.",
   metadataBase: new URL("https://focusmagic-portfolio.vercel.app"),
 };

@@ -7,7 +7,7 @@ type ContactSectionProps = {
 
 export function ContactSection({ messages }: ContactSectionProps) {
   return (
-    <section id="contact" className="section-shell scroll-mt-20 py-10 md:py-14">
+    <section id="contact" className="section-shell scroll-mt-20 py-6 md:py-14">
       <Reveal className="rounded-3xl bg-zinc-900 px-6 py-8 text-white md:px-10 md:py-10">
         <h2 className="text-2xl font-semibold">{messages.contact.title}</h2>
         <p className="mt-3 max-w-2xl text-sm text-zinc-200 md:text-base">{messages.contact.description}</p>

@@ -2,7 +2,7 @@ import type { SiteMessages } from "@/lib/i18n/types";
 
 export const en: SiteMessages = {
   meta: {
-    title: "focusmagic.q | Photographer Portfolio",
+    title: "focusmagic | Photographer Portfolio",
     description: "Warm and natural lifestyle photography by Masha.",
   },
   nav: [
@@ -11,11 +11,11 @@ export const en: SiteMessages = {
     { id: "works", label: "Works" },
   ],
   hero: {
-    badge: "focusmagic.q",
+    badge: "focusmagic",
     title: "Warm, honest photography that keeps your moments alive.",
     description:
-      "Hi, I am Masha. I am a photographer from Zaporizhzhia, Ukraine. I focus on natural emotions, soft atmosphere, and stories that feel real.",
-    city: "Based in Estonia, from Zaporizhzhia, Ukraine.",
+      "Hi! My name is Masha. I photograph in Tartu.\n\nI constantly experiment and improve my skills. For me, photography is a way to preserve emotion, mood, and real-life moments, and I put maximum care, sincerity, and attention into every session.\n\nTo book a photo session, message me on Instagram.",
+    city: "",
     instagramLabel: "Instagram",
     tiktokLabel: "TikTok",
     emailLabel: "Email",
@@ -36,13 +36,17 @@ export const en: SiteMessages = {
   pricing: {
     title: "Price List",
     subtitle: "For booking, please write to me on Instagram.",
-    cta: "Book in Instagram",
+    cta: "Book a photo session",
     plans: [
       {
         name: "Express session",
         price: "50 EUR",
         details: "30 min",
-        points: ["Fast portrait session", "Best for quick personal updates"],
+        points: [
+          "25 edited photos in 4-5 days",
+          "Black-and-white duplicates",
+          "Original photos included",
+        ],
       },
       {
         name: "Standard session",
@@ -52,13 +56,19 @@ export const en: SiteMessages = {
           "50 edited photos in 4-5 days",
           "Black-and-white duplicates",
           "Original photos included",
+          "Short video as a gift",
         ],
       },
       {
         name: "Reportage session",
         price: "100 EUR / hour",
         details: "Events and family moments",
-        points: ["Natural storytelling style", "Several short videos as a gift"],
+        points: [
+          "50 edited photos in 4-5 days",
+          "Black-and-white duplicates",
+          "Original photos included",
+          "Short video as a gift",
+        ],
       },
     ],
   },

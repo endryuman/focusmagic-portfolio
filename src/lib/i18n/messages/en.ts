@@ -43,7 +43,7 @@ export const en: SiteMessages = {
         price: "50 EUR",
         details: "30 min",
         points: [
-          "25 edited photos in 4-5 days",
+          "50 edited photos in 4-5 days",
           "Black-and-white duplicates",
           "Original photos included",
         ],
@@ -53,7 +53,7 @@ export const en: SiteMessages = {
         price: "80 EUR / hour",
         details: "Love story or personal session",
         points: [
-          "50 edited photos in 4-5 days",
+          "80 edited photos in 4-5 days",
           "Black-and-white duplicates",
           "Original photos included",
           "Short video as a gift",
@@ -64,7 +64,7 @@ export const en: SiteMessages = {
         price: "100 EUR / hour",
         details: "Events and family moments",
         points: [
-          "50 edited photos in 4-5 days",
+          "100 edited photos in 4-5 days",
           "Black-and-white duplicates",
           "Original photos included",
           "Short video as a gift",

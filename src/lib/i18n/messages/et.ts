@@ -43,7 +43,7 @@ export const et: SiteMessages = {
         price: "50 EUR",
         details: "30 min",
         points: [
-          "25 töödeldud fotot 4-5 päevaga",
+          "50 töödeldud fotot 4-5 päevaga",
           "Mustvalged duplikaadid",
           "Kaasa ka originaalfailid",
         ],
@@ -53,7 +53,7 @@ export const et: SiteMessages = {
         price: "80 EUR / tund",
         details: "Love story või personaalne sessioon",
         points: [
-          "50 töödeldud fotot 4-5 päevaga",
+          "80 töödeldud fotot 4-5 päevaga",
           "Mustvalged duplikaadid",
           "Kaasa ka originaalfailid",
           "Lühivideo kingituseks",
@@ -64,7 +64,7 @@ export const et: SiteMessages = {
         price: "100 EUR / tund",
         details: "Üritused ja perefotod",
         points: [
-          "50 töödeldud fotot 4-5 päevaga",
+          "100 töödeldud fotot 4-5 päevaga",
           "Mustvalged duplikaadid",
           "Kaasa ka originaalfailid",
           "Lühivideo kingituseks",

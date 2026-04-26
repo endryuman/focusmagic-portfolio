@@ -52,7 +52,7 @@ export function PricingSection({ messages }: PricingSectionProps) {
           href="https://www.instagram.com/focusmagic.q?igsh=MTh2M3gxcndmemg2dw=="
           target="_blank"
           rel="noreferrer"
-          className="mt-6 inline-flex rounded-2xl bg-zinc-900 px-6 py-3 text-sm font-semibold text-white hover:bg-zinc-700"
+          className="mt-6 inline-flex w-full min-w-0 items-center justify-center rounded-2xl bg-zinc-900 px-6 py-3 text-center text-sm font-semibold text-white hover:bg-zinc-700 md:w-auto"
         >
           {messages.pricing.cta}
         </a>

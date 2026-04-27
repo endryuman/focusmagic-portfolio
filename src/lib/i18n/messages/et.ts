@@ -56,7 +56,7 @@ export const et: SiteMessages = {
           "80 töödeldud fotot 4-5 päevaga",
           "Mustvalged duplikaadid",
           "Kaasa ka originaalfailid",
-          "Lühivideo kingituseks",
+          "Kingituseks 10 prinditud fotot",
         ],
       },
       {
@@ -67,7 +67,7 @@ export const et: SiteMessages = {
           "100 töödeldud fotot 4-5 päevaga",
           "Mustvalged duplikaadid",
           "Kaasa ka originaalfailid",
-          "Lühivideo kingituseks",
+          "Kingituseks 10 prinditud fotot",
         ],
       },
     ],

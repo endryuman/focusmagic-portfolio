@@ -56,7 +56,7 @@ export const en: SiteMessages = {
           "80 edited photos in 4-5 days",
           "Black-and-white duplicates",
           "Original photos included",
-          "Short video as a gift",
+          "10 printed photos as a gift",
         ],
       },
       {
@@ -67,7 +67,7 @@ export const en: SiteMessages = {
           "100 edited photos in 4-5 days",
           "Black-and-white duplicates",
           "Original photos included",
-          "Short video as a gift",
+          "10 printed photos as a gift",
         ],
       },
     ],

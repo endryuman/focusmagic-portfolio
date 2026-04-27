@@ -2,8 +2,19 @@ import type { SiteMessages } from "@/lib/i18n/types";
 
 export const en: SiteMessages = {
   meta: {
-    title: "focusmagic | Photographer Portfolio",
-    description: "Warm and natural lifestyle photography by Masha.",
+    title: "Masha Batii | Photographer in Tartu | focusmagic",
+    description:
+      "Masha Batii is a lifestyle photographer in Tartu, Estonia—portraits, couples, and events with a warm, natural style. Book on Instagram @focusmagic.q.",
+    keywords: [
+      "Masha Batii",
+      "focusmagic.q",
+      "@focusmagic.q",
+      "photographer Tartu",
+      "Tartu photographer",
+      "lifestyle photographer Estonia",
+      "portrait photographer Tartu",
+      "focusmagic",
+    ],
   },
   nav: [
     { id: "about", label: "About" },

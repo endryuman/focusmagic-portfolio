@@ -2,8 +2,19 @@ import type { SiteMessages } from "@/lib/i18n/types";
 
 export const et: SiteMessages = {
   meta: {
-    title: "focusmagic | Fotograafi portfoolio",
-    description: "Soe ja loomulik fotograafia Mashalt.",
+    title: "Masha Batii | fotograaf Tartus | focusmagic",
+    description:
+      "Masha Batii on elustiili fotograaf Tartus—portreed, paarid ja üritused sooja, loomuliku stiiliga. Broneering Instagramis @focusmagic.q.",
+    keywords: [
+      "Masha Batii",
+      "focusmagic.q",
+      "@focusmagic.q",
+      "fotograaf Tartu",
+      "Tartu fotograaf",
+      "elustiili fotograafia",
+      "portreefotograaf Tartu",
+      "focusmagic",
+    ],
   },
   nav: [
     { id: "about", label: "Minust" },

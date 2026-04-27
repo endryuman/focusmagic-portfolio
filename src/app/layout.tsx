@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Sora } from "next/font/google";
+import { siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -14,9 +15,10 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "focusmagic - Photographer",
-  description: "Lifestyle photographer portfolio and pricing.",
-  metadataBase: new URL("https://focusmagic-portfolio.vercel.app"),
+  title: "Masha Batii | Photographer in Tartu | focusmagic",
+  description:
+    "Masha Batii is a lifestyle photographer in Tartu, Estonia—portraits, couples, and events. Book on Instagram @focusmagic.q.",
+  metadataBase: new URL(siteUrl),
 };
 
 export default function RootLayout({

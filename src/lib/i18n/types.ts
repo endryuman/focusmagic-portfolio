@@ -7,6 +7,8 @@ export type SiteMessages = {
   meta: {
     title: string;
     description: string;
+    /** Search phrases for `<meta name="keywords">` (also inform copy elsewhere). */
+    keywords: string[];
   };
   nav: NavItem[];
   hero: {

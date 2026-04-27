@@ -2,8 +2,19 @@ import type { SiteMessages } from "@/lib/i18n/types";
 
 export const ru: SiteMessages = {
   meta: {
-    title: "focusmagic | Портфолио фотографа",
-    description: "Теплая и естественная фотография от Маши.",
+    title: "Маша Батий | фотограф в Тарту | focusmagic",
+    description:
+      "Маша Батий — фотограф в Тарту, Эстония: тёплые портреты, love story, мероприятия в естественном стиле. Запись в Instagram @focusmagic.q.",
+    keywords: [
+      "Masha Batii",
+      "focusmagic.q",
+      "@focusmagic.q",
+      "Маша Батий",
+      "фотограф Тарту",
+      "photographer Tartu",
+      "фотограф Эстония",
+      "focusmagic",
+    ],
   },
   nav: [
     { id: "about", label: "Обо мне" },

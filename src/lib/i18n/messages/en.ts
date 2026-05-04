@@ -48,7 +48,6 @@ export const en: SiteMessages = {
     title: "Plans that fit your story",
     subtitle:
       "Pick a session that matches your time and mood — then message me on Instagram to book a date.",
-    popularLabel: "Most popular",
     cta: "Book a photo session",
     plans: [
       {

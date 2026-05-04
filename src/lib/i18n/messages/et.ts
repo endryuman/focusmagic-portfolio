@@ -48,7 +48,6 @@ export const et: SiteMessages = {
     title: "Paketid sinu loole",
     subtitle:
       "Vali sessioon aja ja tunde järgi — seejärel kirjuta Instagramis, et leppida kuupäev kokku.",
-    popularLabel: "Kõige populaarsem",
     cta: "Broneeri fotosessioon",
     plans: [
       {

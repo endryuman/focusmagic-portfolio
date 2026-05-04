@@ -48,7 +48,6 @@ export const uk: SiteMessages = {
     title: "Тарифи під ваш настрій",
     subtitle:
       "Оберіть формат зйомки — потім напишіть мені в Instagram, щоб узгодити дату та деталі.",
-    popularLabel: "Найпопулярніший",
     cta: "Забронювати фотосесію",
     plans: [
       {

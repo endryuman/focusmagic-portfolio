@@ -86,24 +86,17 @@ export function PricingSection({ messages }: PricingSectionProps) {
                 />
 
                 <div>
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="min-w-0">
-                      <h3
-                        id={planId}
-                        className={classNames(
-                          "text-lg font-semibold leading-snug",
-                          featured ? "text-zinc-950" : "text-zinc-900",
-                        )}
-                      >
-                        {plan.name}
-                      </h3>
-                      <p className="mt-1 text-sm text-zinc-500">{plan.details}</p>
-                    </div>
-                    {featured ? (
-                      <span className="shrink-0 rounded-full bg-zinc-100 px-2.5 py-1 text-xs font-semibold text-zinc-800 ring-1 ring-zinc-900/10">
-                        {messages.pricing.popularLabel}
-                      </span>
-                    ) : null}
+                  <div className="min-w-0">
+                    <h3
+                      id={planId}
+                      className={classNames(
+                        "text-lg font-semibold leading-snug",
+                        featured ? "text-zinc-950" : "text-zinc-900",
+                      )}
+                    >
+                      {plan.name}
+                    </h3>
+                    <p className="mt-1 text-sm text-zinc-500">{plan.details}</p>
                   </div>
 
                   <p className="mt-6 flex flex-wrap items-baseline gap-x-1.5">

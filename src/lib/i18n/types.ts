@@ -32,7 +32,6 @@ export type SiteMessages = {
   pricing: {
     title: string;
     subtitle: string;
-    popularLabel: string;
     cta: string;
     plans: Array<{
       name: string;

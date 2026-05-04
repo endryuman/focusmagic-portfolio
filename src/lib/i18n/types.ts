@@ -32,11 +32,13 @@ export type SiteMessages = {
   pricing: {
     title: string;
     subtitle: string;
+    popularLabel: string;
     cta: string;
     plans: Array<{
       name: string;
       price: string;
       details: string;
+      featured?: boolean;
       points: string[];
     }>;
   };

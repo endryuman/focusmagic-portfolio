@@ -45,8 +45,10 @@ export const uk: SiteMessages = {
     loadMore: "Завантажити ще сети",
   },
   pricing: {
-    title: "Прайс-лист",
-    subtitle: "Для бронювання зйомки напишіть мені в Instagram.",
+    title: "Тарифи під ваш настрій",
+    subtitle:
+      "Оберіть формат зйомки — потім напишіть мені в Instagram, щоб узгодити дату та деталі.",
+    popularLabel: "Найпопулярніший",
     cta: "Забронювати фотосесію",
     plans: [
       {
@@ -63,6 +65,7 @@ export const uk: SiteMessages = {
         name: "Стандартна фотосесія",
         price: "80 EUR / година",
         details: "Love story або персональна фотосесія",
+        featured: true,
         points: [
           "80 оброблених фото за 4-5 днів",
           "Дублювання у чорно-білому стилі",

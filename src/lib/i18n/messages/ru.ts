@@ -45,8 +45,10 @@ export const ru: SiteMessages = {
     loadMore: "Загрузить еще сеты",
   },
   pricing: {
-    title: "Прайс-лист",
-    subtitle: "Для бронирования съемки пишите в Instagram.",
+    title: "Тарифы под ваш формат",
+    subtitle:
+      "Выберите съемку по времени и настроению — затем напишите в Instagram, чтобы выбрать дату.",
+    popularLabel: "Популярный выбор",
     cta: "Забронировать фотосессию",
     plans: [
       {
@@ -63,6 +65,7 @@ export const ru: SiteMessages = {
         name: "Стандартная фотосессия",
         price: "80 EUR / час",
         details: "Love story или персональная съемка",
+        featured: true,
         points: [
           "80 обработанных фото за 4-5 дней",
           "Дублирование в черно-белом стиле",

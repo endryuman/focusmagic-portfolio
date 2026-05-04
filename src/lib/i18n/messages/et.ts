@@ -45,8 +45,10 @@ export const et: SiteMessages = {
     loadMore: "Laadi rohkem komplekte",
   },
   pricing: {
-    title: "Hinnakiri",
-    subtitle: "Broneerimiseks kirjuta mulle Instagrami.",
+    title: "Paketid sinu loole",
+    subtitle:
+      "Vali sessioon aja ja tunde järgi — seejärel kirjuta Instagramis, et leppida kuupäev kokku.",
+    popularLabel: "Kõige populaarsem",
     cta: "Broneeri fotosessioon",
     plans: [
       {
@@ -63,6 +65,7 @@ export const et: SiteMessages = {
         name: "Standard fotosessioon",
         price: "80 EUR / tund",
         details: "Love story või personaalne sessioon",
+        featured: true,
         points: [
           "80 töödeldud fotot 4-5 päevaga",
           "Mustvalged duplikaadid",

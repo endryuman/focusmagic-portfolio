@@ -45,8 +45,10 @@ export const en: SiteMessages = {
     loadMore: "Load more sets",
   },
   pricing: {
-    title: "Price List",
-    subtitle: "For booking, please write to me on Instagram.",
+    title: "Plans that fit your story",
+    subtitle:
+      "Pick a session that matches your time and mood — then message me on Instagram to book a date.",
+    popularLabel: "Most popular",
     cta: "Book a photo session",
     plans: [
       {
@@ -63,6 +65,7 @@ export const en: SiteMessages = {
         name: "Standard session",
         price: "80 EUR / hour",
         details: "Love story or personal session",
+        featured: true,
         points: [
           "80 edited photos in 4-5 days",
           "Black-and-white duplicates",
